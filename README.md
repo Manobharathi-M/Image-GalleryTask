@@ -35,6 +35,3 @@ image-gallery/
 6. Users can close the preview to return to the gallery.
 
 Live Link: https://manobharathi-m.github.io/Image-GalleryTask/
-
-
-Just tell me 👍
