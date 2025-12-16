@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Creative Gallery</h1>
+    <p>Explore moments through visuals</p>
+  </section>
+
+  <section class="controls">
+    <input type="text" id="search" placeholder="Search images..." />
+
+    <div class="filters">
+      <button class="filter active" data-cat="All">All</button>
+      <button class="filter" data-cat="Nature">Nature</button>
+      <button class="filter" data-cat="Travel">Travel</button>
+      <button class="filter" data-cat="Food">Food</button>
+      <button class="filter" data-cat="People">People</button>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery"></section>
+
+  <p class="empty" id="empty">No images found</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
